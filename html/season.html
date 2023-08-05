@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Japan Anime Characters by Nurio34</title>
+    <!-- <link rel="shortcut icon" href="./icons/image_140.jpg" type="image/x-icon"> -->
+
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b69fb5b7db.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b69fb5b7db.js" crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+</head>
+
+<body id="season1">
+
+    <div class="background">
+        <img src="../images/Home_Page_Images/pokemonGoBall.png" alt="">
+    </div>
+
+    <header>
+
+        <a class="logo" href="../index.html">
+            <img src="../images/Home_Page_Images/logoPokemon.png" alt="">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+
+        <div class="search-container">
+            <input type="text" name="search" id="searchInp" placeholder="Ara..">
+            <img class="logoPokemon" src="../images/Home_Page_Images/logoPokemon.png" alt="">
+            <img class="pokeball" src="../images/Home_Page_Images/pokeball.png" alt="">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <ul class="social-links">
+            <li><a href="#" target="_blank">
+                <img src="https://pokemonTr.b-cdn.net/images/Social%20Platform%20Icons/instagram.png" width="30" height="30" alt="">
+            </a></li>
+
+            <li><a href="#" target="_blank">
+                <img src="https://pokemonTr.b-cdn.net/images/Social%20Platform%20Icons/twitter.png" width="30" height="30" alt="">
+            </a></li>
+
+            <li><a href="#" target="_blank">
+                <img src="https://pokemonTr.b-cdn.net/images/Social%20Platform%20Icons/facebook.png" width="30" height="30" alt="">
+            </a></li>
+
+            <li><a href="#" target="_blank">
+                <img src="https://pokemonTr.b-cdn.net/images/Social%20Platform%20Icons/youtube.png" width="40" height="30" alt="">
+            </a></li>
+        </ul>
+
+    </header>
+
+    <main>
+
+        <div class="video-container">
+
+            <section class="video-playing">
+
+                <div class="controls-container">
+
+                    <div class="controls">
+                        <i class="fa-solid fa-pause"></i>
+                        <div class="time-wrapper"><span class="current-time">03:18</span> / <span class="total-time">22:47</span></div>
+                        <div class="volume-wrapper">
+                            <input type="range" name="" id="">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </div>
+                        <i class="fa-solid fa-expand"></i>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+
+                    <div class="time-bar-wrapper">
+                        <div class="time-bar"></div>
+                    </div>
+
+                </div>
+
+                <video controls autoplay></video>
+
+                <div class="all-btns hidden">
+
+                    <button type="button" class="prevBtn btn"><i class="fa-solid fa-backward"></i></button>
+
+                    <button type="button" class="play-pause-btn playBtn btn">
+                        <i class="fa-solid fa-pause"></i>
+                        <img src="../images/Home_Page_Images/pokeballWithBackground.png" alt="">
+                    </button>
+
+                    <button type="button" class="nextBtn btn"><i class="fa-solid fa-forward"></i></button>
+                </div>
+
+                <p class="episode"></p>
+
+                <p class="episode-name"></p>
+
+            </section>
+
+            <section class="videos-waiting">
+                <h2></h2>
+                <ul class="list">
+            
+                </ul>
+            </section>
+        </div>
+
+        <section class="seasons">
+            
+        </section>
+
+    </main>
+
+
+    <script src="../script/season.js" ></script>
+
+</body>
